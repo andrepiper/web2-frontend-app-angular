@@ -1,27 +1,32 @@
-# JobsdashboardAngular
+Team Name: TeraScale
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+![image](https://user-images.githubusercontent.com/3706993/226192273-390100e9-6245-4d53-8a39-55eadb9106b4.png)
 
-## Development server
+Project description
+This job board will be a website used by employers to advertise their job vacancies to job
+seekers. Job seekers can use job boards to search for new job opportunities in their area and
+profession.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Features
 
-## Code scaffolding
+- List Jobs - Developed by: Andre Piper
+- User Authentication - Developed by: Bhupinder Singh Virdi
+- Jobs applied management (User perspective)  - Developed by: Saumya Mehta
+- Job detail and application page - Developed by: Saumya Mehta
+- Admin Authentication - Developed by: Siddhartha Choudhary 
+- Manage jobs (Admin perspective) - Developed by: Siddhartha Choudhary and Andre Piper
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Deployment
 
-## Build
+Frontend - REACT
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+https://jobs-dashboard-app.onrender.com/
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Frontend - ANGULAR
 
-## Running end-to-end tests
+https://web2-frontend-app-angular-65odimtsw-saumya11mehta.vercel.app/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+BACKEND 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://jobs-dashboard-api.onrender.com/api/jobs

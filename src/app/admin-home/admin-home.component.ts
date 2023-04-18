@@ -42,10 +42,10 @@ export class AdminHomeComponent implements OnInit {
 
   deleteJob(id: string) {
     console.log(`Deleting job with ID: ${id}`);
-    this.http.delete(`http://localhost:3001/api/jobs/${id}`).subscribe(() => {
+    this.http.delete(`https://jobs-dashboard-api.onrender.com/api/jobs/${id}`).subscribe(() => {
       console.log(`Job with ID ${id} deleted successfully.`);
       // Refresh the table data after deleting the job
-      this.http.get<MyData[]>('http://localhost:3001/api/jobs').subscribe(data => {
+      this.http.get<MyData[]>('https://jobs-dashboard-api.onrender.com/api/jobs').subscribe(data => {
         this.dataSource.data = data;
         location.reload();
       });

@@ -41,7 +41,7 @@ export class JobapplicationformComponent {
       formData?.append('apply_with_email', applicationForm.value.email);
       formData?.append('apply_with_phone', applicationForm.value.phone);
       try {
-        const response = await axios.post('http://localhost:3001/api/jobsapplied', formData, {
+        const response = await axios.post('https://jobs-dashboard-api.onrender.com/api/jobsapplied', formData, {
           headers: {
               'Content-Type': 'multipart/form-data',
           },
